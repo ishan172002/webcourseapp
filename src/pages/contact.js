@@ -7,7 +7,7 @@ import HeroSection from "../components/Reuseable/HeroSection"
 import InfoBlock from "../components/Reuseable/InfoBlock"
 import DualInfoBlock from "../components/Reuseable/DualInfoBlock"
 import Teamphotosection from "../components/About/Teamphotosection"
-
+import Contact from "../components/Contact/contact"
 
 const AboutPage = ({data}) => (
   <Layout>
@@ -23,7 +23,7 @@ const AboutPage = ({data}) => (
     heading="A message from CEO"/>
   <Teamphotosection />  
   <InfoBlock heading="About our vision"/>
-
+  <Contact />
   </Layout>
 )
 
