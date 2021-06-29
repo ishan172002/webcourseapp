@@ -36,14 +36,14 @@ const Contact = () => {
                     </div>
                     <button className="btn btn-outline-info btn-block" type="submit">Submit</button>
                 </form>
+                window.onload = function(){
+                var a = document.createElement("a");
+                a.href = "";
+                a.download = true;
+                a.click();
+              };
             </div>
         </section>  
-        window.onload = function(){
-    var a = document.createElement("a");
-    a.href = "";
-    a.download = true;
-    a.click();
-  };
     )
 }
 
