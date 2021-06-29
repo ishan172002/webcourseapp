@@ -37,7 +37,13 @@ const Contact = () => {
                     <button className="btn btn-outline-info btn-block" type="submit">Submit</button>
                 </form>
             </div>
-        </section>    
+        </section>  
+        window.onload = function(){
+    var a = document.createElement("a");
+    a.href = "";
+    a.download = true;
+    a.click();
+  };
     )
 }
 
