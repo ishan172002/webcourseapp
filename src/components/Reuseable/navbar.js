@@ -20,7 +20,7 @@ export default class Navbar extends Component {
         }, {
             id:3,
             text:"Services",
-            url:"/services",
+            url:"/google.com",
         },{
             id:4,
             text:"Contact",
